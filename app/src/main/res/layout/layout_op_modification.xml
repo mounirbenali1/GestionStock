@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:text="detail Operation"
+        android:textSize="24sp" />
+
+
+    <EditText
+        android:id="@+id/date_operation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="name_article" />
+
+    <EditText
+        android:id="@+id/id_art"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="name_article" />
+
+    <EditText
+        android:id="@+id/id_qt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="name_article" />
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="editOperation"
+        android:text="Modifier" />
+
+    <Button
+        android:id="@+id/btn_delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="deleteOperation"
+        android:text="Supprimer" />
+
+</LinearLayout>
